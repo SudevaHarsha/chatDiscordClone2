@@ -41,7 +41,7 @@ export async function POST(
       data: {
         channels: {
           create: {
-            profileId: profile.id,
+            ProfileId: profile.id,
             name,
             type,
           }
